@@ -1,3 +1,5 @@
+# Check Question-6 for maybe better solution with 'for' function
+
 NumInList = input('Pick numbers:').split(',')
 
 print(NumInList, tuple(NumInList))  # Values as str
