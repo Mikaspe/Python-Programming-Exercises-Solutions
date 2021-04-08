@@ -1,4 +1,4 @@
-NumInList = input('Pick a number:').split(',')
+NumInList = input('Pick numbers:').split(',')
 
 print(NumInList, tuple(NumInList))  # Values as str
 
