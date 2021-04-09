@@ -1,7 +1,6 @@
-import math
+from math import sqrt
 
-C = 50
-H = 30
+C, H = 50, 30
 Q = []
 D = input('Type one or more values separated with comma: ').split(',')
 
@@ -16,6 +15,6 @@ D = input('Type one or more values separated with comma: ').split(',')
 
 # Second solution - Better IMO
 for d in D:
-    Q.append(str(round(math.sqrt((2*C*float(d))/H))))
+    Q.append(str(round(sqrt((2*C*float(d))/H))))
 
 print(','.join(Q))

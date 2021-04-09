@@ -3,7 +3,7 @@ def dict_seq1(x):  # IMO better solution
 
 
 def dict_seq2(x):  # Second solution
-    d = dict()
+    d = {}
     for i in range(1, x + 1):
         d[i] = i*i
 
