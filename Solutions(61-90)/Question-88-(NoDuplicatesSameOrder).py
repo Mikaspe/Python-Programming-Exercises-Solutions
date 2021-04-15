@@ -1,0 +1,5 @@
+ls = [12,24,35,24,88,120,155,88,120,155]
+
+no_duplicates = list(dict.fromkeys(ls))
+
+print(no_duplicates)
