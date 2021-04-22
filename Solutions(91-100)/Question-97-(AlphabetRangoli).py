@@ -4,7 +4,7 @@ N = 25
 
 y_size = 4*N-3
 
-y_mid = int((4*N-3)/2)  # Middle column
+y_mid = int((4*N-3) / 2)  # Middle column
 alphabet = ascii_lowercase[N-1::-1]
 
 rangoli = [['-' for y in range(y_size)] for x in range(N)]
